@@ -1,3 +1,18 @@
-<apex:page showHeader="true" sidebar="true">
-	
+<!--
+/**=====================================================================
+ * Appirio, Inc
+ * Page Name:
+ * Description: [Task # with multi-line description here]
+ * Created Date: [MM/DD/YYYY]
+ * Created By: [FirstName LastName] (Appirio)
+ * 
+ * Date Modified                Modified By                  Description of the update
+ * [MON DD, YYYY]             	[FirstName LastName]		 [Short description for changes]
+ =====================================================================*/
+-->
+<apex:page>
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1>
+This is your new Page
+<!-- End Default Content REMOVE THIS -->
 </apex:page>

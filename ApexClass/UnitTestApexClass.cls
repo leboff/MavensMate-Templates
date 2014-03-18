@@ -1,12 +1,18 @@
+/**=====================================================================
+ * Appirio, Inc
+ * Test Class Name: {{ api_name }}
+ * Class Name: [Class name for which test class created]
+ * Description: [Task # with multi-line description here]
+ * Created Date: [MM/DD/YYYY]
+ * Created By: [FirstName LastName] (Appirio)
+ * 
+ * Date Modified                Modified By                  Description of the update
+ * [MON DD, YYYY]             	[FirstName LastName]		 [Short description for changes]
+ =====================================================================*/
 @isTest
 private class {{ api_name }} {
-	
-	@isTest static void test_method_one() {
-		// Implement test code
-	}
-	
-	@isTest static void test_method_two() {
-		// Implement test code
-	}
-	
+
+    static testMethod void myUnitTest() {
+        // TO DO: implement unit test
+    }
 }

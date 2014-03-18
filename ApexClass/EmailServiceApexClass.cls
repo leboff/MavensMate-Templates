@@ -1,17 +1,18 @@
+/**=====================================================================
+ * Appirio, Inc
+ * Email Service Name: {{ api_name }}
+ * Description: [Task# with multi-line description here]
+ * Created Date: [MM/DD/YYYY]
+ * Created By: [FirstName LastName] (Appirio)
+ * 
+ * Date Modified                Modified By                  Description of the update
+ * [MON DD, YYYY]             	[FirstName LastName]		 [Short description for changes]
+ =====================================================================*/
 global class {{ api_name }} implements Messaging.InboundEmailHandler {
-	
-	global Messaging.InboundEmailResult handleInboundEmail(Messaging.inboundEmail email,
-																Messaging.InboundEnvelope env) {
- 
-		// Create an InboundEmailResult object for returning the result of the
-		// Apex Email Service
-		
-		Messaging.InboundEmailResult result = new Messaging.InboundEmailResult();
-		
-		String myPlainText= '';
-		myPlainText = email.plainTextBody;
-		
-		result.success = true;
-		return result;
-	}
+
+    global Messaging.InboundEmailResult handleInboundEmail(Messaging.InboundEmail email, Messaging.InboundEnvelope envelope) {
+        Messaging.InboundEmailResult result = new Messaging.InboundEmailresult();
+
+        return result;
+    }
 }
